@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Covid19 Live Tracker",
+    "slug": "live-corona-tracker",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "androidStatusBar": {
+      "backgroundColor": "#0e83e3"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "This app tracks all the covid cases being reported in the world and displays it. Cases are filtered based on your location - country - state. Covid19 related news, faq are also available in this app",
+    "android": {
+      "package": "com.xerobit.covidtrl",
+      "versionCode": 1,
+      "permissions": []
+    }
+  }
+}

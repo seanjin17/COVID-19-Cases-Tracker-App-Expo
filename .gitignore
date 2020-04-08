@@ -1,0 +1,21 @@
+node_modules/**/*
+**/*/code.zip
+.expo/*
+.idea/*
+.expo-shared/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+**/node_modules
+**/AppSigning
+# macOS
+.DS_Store
+backend/PushNotificationServer/node_modules/**/*
+backend/PushNotificationServer/**/*
+**/backend/PushNotificationServer
