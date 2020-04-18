@@ -49,7 +49,7 @@ export default function App() {
         }),
       })
     }catch(e){
-      PushLogToServer("error", "Ask for push notification failed")
+      PushLogToServer("error", e)
     }
   }
 
@@ -59,7 +59,7 @@ export default function App() {
   return(
   <ErrorBoundary>
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" screenOptions={({ route }) => ({
+      <Stack.Navigator initialRouteName="About" screenOptions={({ route }) => ({
       tabBarIcon: ({ focused, color, size=20 }) => {
         let iconName;
 
