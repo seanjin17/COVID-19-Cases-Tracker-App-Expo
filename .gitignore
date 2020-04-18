@@ -16,6 +16,6 @@ web-report/
 **/AppSigning
 # macOS
 .DS_Store
-backend/PushNotificationServer/node_modules/**/*
-backend/PushNotificationServer/**/*
-**/backend/PushNotificationServer
+
+.backend/**/*
+.env

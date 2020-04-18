@@ -26,12 +26,12 @@ export default function Home(props) {
 
     const retriveLocalStorageData = async () => {
         try {
-            const value = await AsyncStorage.getItem('ViewewdRelease0024b');
+            const value = await AsyncStorage.getItem('ViewewdRelease0025s');
             if (value) {
                 setModalVisible(false)
             } else {
                 setModalVisible(true)
-                storeData("ViewewdRelease0024b", "true");
+                storeData("ViewewdRelease0025s", "true");
             }
         } catch (error) {
             setIsError(error)

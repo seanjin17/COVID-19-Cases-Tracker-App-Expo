@@ -24,7 +24,7 @@ const Stack = createMaterialBottomTabNavigator();
 
 export default function App() {
 
-  const PUSH_REGISTRATION_ENDPOINT = '<Your notification server endpoint>';
+  const PUSH_REGISTRATION_ENDPOINT = process.env.PUSH_NOTIFICATION_TOKEN_ENDPOINT;
 
   const registerForPushNotificationsAsync = async () => {
     try{

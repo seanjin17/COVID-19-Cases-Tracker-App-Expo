@@ -88,7 +88,7 @@ export default function AboutView() {
       <Text onPress={handleMailPress}>Contact : <Text style={{ color: '#309afc' }}>appdev@xerobit.in</Text></Text>
       <Text onPress={handleDonatePress}>Support my work by <Text style={{ color: '#309afc' }} onPress={handleDonatePress}>Clicking Here</Text></Text>
       <Text>Source : <Text style={{ color: '#309afc' }} onPress={handleWorldometerClick}>Worldometers</Text>, <Text style={{ color: '#309afc' }} onPress={handleWHOClick}>WHO</Text>, <Text style={{ color: '#309afc' }} onPress={handleMOHFWclick}>MOHFW</Text>, <Text style={{ color: '#309afc' }} onPress={handlecovidIndiaclick}>Covid19India.org</Text></Text>
-      <Text>App Version : 0.0.24bR1</Text>
+      <Text>App Version : 0.0.25s</Text>
       <Text><Text onPress={openReleaseNotes} style={{ color: '#309afc' }}>Release Notes </Text> <Text onPress={openChangeLog} style={{ color: '#309afc' }}>Changelog</Text></Text>
       <TouchableNativeFeedback onPress={shareApp}>
         <View>

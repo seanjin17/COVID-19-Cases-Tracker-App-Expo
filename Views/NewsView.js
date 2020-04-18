@@ -31,10 +31,9 @@ export default function NewsView(props) {
     props.navigation.navigate('News', {})
   }
   const handleNewsSitePress = (url) => {
-    Linking.openURL(`http://${url}`)
+    Linking.openURL(url)
   }
   const handleNewsPress = item => {
-    console.log(item)
     props.navigation.navigate('News', item)
   }
 

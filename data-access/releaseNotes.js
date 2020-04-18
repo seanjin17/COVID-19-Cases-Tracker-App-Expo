@@ -1,4 +1,6 @@
 export const ReleaseNotes = [{
+    "0.0.25s": ["Fixed bug with Overall Stats", "Fixed bug with inaccessible news links"],
+},{
     "0.0.24b*": ["Release Date : 28th March", "We have moved news data from 3rd party to internal api because of high failures", "Our website is now available and can be accessed by tapping the status bar icon", "Bug and performance fixes"],
 },{
     "0.0.23b*": ["Release Date : 27th March", "Added State Wise View", "Added Release Notes in about section", "Fixed release notes getting popped up everytime while app load", "Changed Status bar", "Fixed country view sorting based on most cases", "Released new API for state wise data https://ed9d54g0q3.execute-api.ap-south-1.amazonaws.com/def/countrywise/india", "Bug Fixes", "Added Share Button in about view"],

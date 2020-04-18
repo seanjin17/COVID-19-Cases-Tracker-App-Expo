@@ -20,6 +20,16 @@ export default function NewReleaseComponent() {
     return (
         <View>
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                <Text style={{ fontSize: 25, color: '#309afc', alignSelf: 'center' }}>New Release 0.0.25s</Text>
+                <View style={{ marginTop: 10 }}>
+                    <Text style={{ fontSize: 20 }}>Whats new in this release?</Text>
+                </View>
+                <View style={{ margin: 10, alignItems: 'center' }}>
+                    <Text style={{ fontSize: 15 }}> -- Fixed bug with Overall Stats</Text>
+                    <Text style={{ fontSize: 15 }}> -- Fixed bug with inaccessible news links</Text>
+                </View>
+            </View>
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                 <Text style={{ fontSize: 25, color: '#309afc', alignSelf: 'center' }}>New Release 0.0.24b</Text>
                 <View style={{ marginTop: 10 }}>
                     <Text style={{ fontSize: 20 }}>Whats new in this release?</Text>
